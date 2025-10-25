@@ -2,7 +2,23 @@ node_modules/
 .DS_Store
 *.log
 .env
-# Temporarily ignore large GIF files
+
+# Large GIF files (too big for GitHub)
 src/file/background-animation.gif
 src/file/v2-background.gif
-src/img/v5-background.gif
+
+# Large video files
+src/file/background-video.mov
+src/file/vecteezy_elegant-dark-green-abstract-wave-background-with-fluid_63128437.mov
+
+# Development files
+.vscode/
+package-lock.json
+src/file/Microsoft+Word+Proceedings+Templates.zip
+
+# Large GIF files (over 100MB)
+src/file/v2-background.gif
+src/file/background-animation.gif
+
+# macOS metadata files
+._*
