@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Registration | CODE-AI</title>
+        <link href="src/img/manipal logo.jpeg" rel="icon" type="image/png">
+        <link href="src/css/style.css" rel="stylesheet">
+        <link href="src/css/registration.css?v=3" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+        <style>
+            /* Glass Morphism with White/Green/Black Color Scheme */
+            .registration .register-content {
+                background: rgba(255, 255, 255, 0.08) !important;
+                backdrop-filter: blur(20px) !important;
+                -webkit-backdrop-filter: blur(20px) !important;
+                border: 1px solid rgba(255, 255, 255, 0.3) !important;
+                border-radius: 20px !important;
+                padding: 2rem !important;
+                margin: 2rem auto !important;
+                box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4) !important;
+                /* Slight green tint overlay */
+                position: relative !important;
+            }
+            .registration .register-content::before {
+                content: '' !important;
+                position: absolute !important;
+                top: 0 !important;
+                left: 0 !important;
+                right: 0 !important;
+                bottom: 0 !important;
+                background: rgba(34, 197, 94, 0.05) !important;
+                border-radius: 20px !important;
+                pointer-events: none !important;
+                z-index: -1 !important;
+            }
+            .registration .register-content:hover {
+                border-color: rgba(255, 255, 255, 0.4) !important;
+                box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5) !important;
+            }
+            .registration h2 {
+                color: #22c55e !important;
+                text-shadow: 0 2px 10px rgba(34, 197, 94, 0.3) !important;
+            }
+            .registration table {
+                background: transparent !important;
+                border: none !important;
+            }
+            .registration th {
+                background: linear-gradient(135deg, rgba(34, 197, 94, 0.8), rgba(34, 197, 94, 0.6)) !important;
+                color: #ffffff !important;
+                border: none !important;
+                text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6) !important;
+                text-align: center !important;
+            }
+            .registration td {
+                background: rgba(255, 255, 255, 0.1) !important;
+                color: #ffffff !important;
+                border: none !important;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.15) !important;
+                text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7) !important;
+                text-align: center !important;
+            }
+            .registration tr:hover td {
+                background: rgba(255, 255, 255, 0.1) !important;
+                transform: none !important;
+            }
+            .registration .note {
+                color: #22c55e !important;
+                background: rgba(34, 197, 94, 0.1) !important;
+                border: 1px solid rgba(34, 197, 94, 0.3) !important;
+                text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5) !important;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header class="header">
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="committee.html">Committees</a>
+                <a href="speakers.html">Speakers</a>
+                <a href="registration.html">Registration</a>
+                <a href="publication.html">Publications</a>
+                <a href="awards.html">Awards</a>
+                <a href="schedule.html">Schedule</a>
+                <a href="souvenir.html">Conference Souvenir</a>
+            </nav>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </header>
+        
+    <!-- v2 GIF Background for Registration Page -->
+    <img 
+            id="v2-background-animation" 
+            src="src/file/v2-background.gif" 
+            alt="Registration Page Background Animation"
+            class="v2-background-gif"
+            style="display: block !important;"
+            loading="eager">
+    
+    <!-- Dark overlay to reduce brightness -->
+    <div class="v2-dark-overlay"></div>        <section class="registration">
+            <h1 style="font-family: 'Zen Dots', cursive;">Registration</h1>
+            <h2 style="font-family: 'Zen Dots', cursive;">Registration Fees for Regular Paper</h2>
+            <div class="register-content">
+                <h3>Early Bird Registration</h3>
+                <p>Available till 31st December 2024</p>
+                <div class="table-wrapper">
+                    <table>
+                        <tr>
+                            <th>Registration Fee</th>
+                            <th>UG / PG / Research Scholars</th>
+                            <th>Academicians / Faculty</th>
+                            <th>R&D Organizations / Industry</th>
+                            <th>Attendees</th>
+                        </tr>
+                        <tr>
+                            <td data-label="Registration Fee">Participants from India</td>
+                            <td data-label="UG / PG / Research Scholars">INR 11000*/-</td>
+                            <td data-label="Academicians / Faculty">INR 13000*/-</td>
+                            <td data-label="R&D Organizations / Industry">INR 15000*/-</td>
+                            <td data-label="Attendees">INR 4000*/-</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Registration Fee">Participants from Abroad</td>
+                            <td data-label="UG / PG / Research Scholars">USD 150*/-</td>
+                            <td data-label="Academicians / Faculty">USD 180*/-</td>
+                            <td data-label="R&D Organizations / Industry">USD 200*/-</td>
+                            <td data-label="Attendees">USD 75*/-</td>
+                        </tr>
+                    </table>
+                </div>
+                <h3>Regular Registration</h3>
+                <div class="table-wrapper">
+                    <table>
+                        <tr>
+                            <th>Registration Fee</th>
+                            <th>UG / PG / Research Scholars</th>
+                            <th>Academicians / Faculty</th>
+                            <th>R&D Organizations / Industry</th>
+                            <th>Attendees</th>
+                        </tr>
+                        <tr>
+                            <td data-label="Registration Fee">Participants from India</td>
+                            <td data-label="UG / PG / Research Scholars">INR 12000*/-</td>
+                            <td data-label="Academicians / Faculty">INR 14000*/-</td>
+                            <td data-label="R&D Organizations / Industry">INR 16000*/-</td>
+                            <td data-label="Attendees">INR 5000*/-</td>
+                        </tr>
+                        <tr>
+                            <td data-label="Registration Fee">Participants from Abroad</td>
+                            <td data-label="UG / PG / Research Scholars">USD 180*/-</td>
+                            <td data-label="Academicians / Faculty">USD 200*/-</td>
+                            <td data-label="R&D Organizations / Industry">USD 250*/-</td>
+                            <td data-label="Attendees">USD 85*/-</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <p class="note">*Excluding GST.</p>
+            <h2 style="font-family: 'Zen Dots', cursive;">Registration Fees for PhD Colloquium</h2>
+            <div class="register-content">
+                <h3>PhD Colloqium Registration</h3>
+
+                    <table>
+                        <tr>
+                            <th>Registration Fee</th>
+                            <th>Research Scholars</th>
+                        </tr>
+                        <tr>
+                            <td>Participants from India</td>
+                            <td>INR 10000*/-</td>
+                        </tr>
+                        <tr>
+                            <td>Participants from Abroad</td>
+                            <td>USD 150*/-</td>
+                        </tr>
+                    </table>
+
+            </div>    
+            <p class="note">*Excluding GST.</p>
+        </section>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p>Dr. Shreyas J</p>
+                    <p>+91 8970768504</p>
+                    <p>codeai.mitblr@manipal.edu</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <div class="quick-links">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="committee.html">Committees</a></li>
+                            <li><a href="speakers.html">Speakers</a></li>
+                            <li><a href="registration.html">Registration</a></li>
+                            <li><a href="publication.html">Publications</a></li>
+                            <li><a href="awards.html">Awards</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="schedule.html">Schedule</a></li>
+                            <li><a href="call.html">Call for Paper</a></li>
+                            <li><a href="callforPhd.html">Call for PhD Colloqium</a></li>
+                            <li><a href="https://forms.office.com/Pages/ResponsePage.aspx?id=Qr2-Kf_xPUyWiAZ-NGDcH3MRZJI60b5KjLW8rUxr9W1UQk9WWkZBQTBQM1Q1NFZMQ0pRRklFSEcxMi4u" target="_blank">Call for Posters</a></li>    
+                            <li><a href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FCODEAI2025"target="_blank">Submit Paper</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Resources</h3>
+                    <p>Get more information about the conference</p>
+                    <div class="resources">
+                        <a href="src/file/CODE-AI 2025 Brochure.pdf" class="btn" download>Download Brochure</a>
+                        <a href="src/file/PHD COLLOQIUM.pdf" class="btn" download>PhD Colloqium Brochure</a>
+                        <a href="src/file/POSTER CODE AI.pdf" class="btn" download>Call for Poster Brochure</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <p>Stay connected with us on social media for the latest updates</p>
+                    <div class="social-icons">
+                        <a href="mailto:codeai.mitblr@manipal.edu" target="_blank"><i class='bx bx-envelope'></i></a>
+                        <a href="https://www.instagram.com/code.ai.mitb/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                        <a href="https://linkedin.com/company/code-ai-mitb/about/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                    <div class="previous-edition">
+                        <h3>Previous Edition</h3>
+                        <p>Explore past conferences.</p>
+                        <a href="https://conference.manipal.edu/CODE-AI2024/" target="_blank" class="btn">CODE-AI 2024 Website</a>
+                        <a href="src/file/CODE AI 2024 SOUVENIR.pdf" class="btn" download>CODE-AI 2024 Souvenir</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="footer-bottom">
+            <div class="bottom-socials">
+                <a href="mailto:acm.mitblr@manipal.edu" target="_blank"><i class='bx bx-envelope'></i></a>
+                <a href="https://www.instagram.com/acm_mitb/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://www.linkedin.com/company/mitb-acm-student-chapter/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            © MITB ACM; All Rights Reserved.
+        </div>
+    </body>
+</html>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+<script>
+    let menuIcon = document.querySelector('#menu-icon');
+    let navbar = document.querySelector('.navbar');
+
+    menuIcon.onclick = () => {
+        menuIcon.classList.toggle('bx-x');
+        navbar.classList.toggle('active');
+    };
+    
+    ScrollReveal({ 
+    reset: false,
+    distance: '80px',
+    duration: 1500,
+    delay:100
+});
+
+// v2 GIF Background Initialization
+(function() {
+    'use strict';
+    
+    let gifElement;
+    
+    function initV2GifBackground() {
+        gifElement = document.getElementById('v2-background-animation');
+        
+        if (!gifElement) {
+            console.log('v2 GIF element not found');
+            return;
+        }
+        
+        console.log('v2 GIF background initialized successfully');
+        
+        if (gifElement.complete) {
+            console.log('v2 GIF loaded and ready');
+        } else {
+            gifElement.onload = function() {
+                console.log('v2 GIF loaded successfully');
+            };
+            
+            gifElement.onerror = function() {
+                console.error('v2 GIF failed to load');
+            };
+        }
+    }
+    
+    // Initialize as soon as possible
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initV2GifBackground);
+    } else {
+        initV2GifBackground();
+    }
+    
+    // Also try on window load
+    window.addEventListener('load', initV2GifBackground);
+    
+})();
+
+// Header Scroll Behavior
+let lastScrollTop = 0;
+let ticking = false;
+
+function updateHeaderOnScroll() {
+    const header = document.querySelector('.header');
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    
+    if (scrollTop > lastScrollTop && scrollTop > 100) {
+        // Scrolling down & past threshold - hide header
+        header.classList.add('header-hidden');
+        header.classList.remove('header-visible');
+    } else if (scrollTop < lastScrollTop) {
+        // Scrolling up - show header
+        header.classList.remove('header-hidden');
+        header.classList.add('header-visible');
+    }
+    
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+    ticking = false;
+}
+
+function requestHeaderUpdate() {
+    if (!ticking) {
+        requestAnimationFrame(updateHeaderOnScroll);
+        ticking = true;
+    }
+}
+
+// Initialize header scroll behavior
+document.addEventListener('DOMContentLoaded', function() {
+    const header = document.querySelector('.header');
+    header.classList.add('header-visible');
+    window.addEventListener('scroll', requestHeaderUpdate);
+});
+
+ScrollReveal().reveal('.registration h1, .registration h2',{ origin: 'top'});
+ScrollReveal().reveal('.register-content h3, .register-content p', { origin: 'left'});
+ScrollReveal().reveal('.register-content table', { origin:'bottom'});
+</script>

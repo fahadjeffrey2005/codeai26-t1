@@ -1,0 +1,112 @@
+.schedule {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.schedule h1 {
+    margin-top: 3rem; /* Adds space above the heading */
+    font-size: 3rem;
+}
+
+.swiper-container {
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    margin-top: 2rem;
+    width: 95%;
+    max-height: 550px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    width: 35px;
+    height: 35px;
+    color: white !important; /* Ensures arrows are white */
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.swiper-button-next {
+    right: 5px; /* Moves closer to the image */
+}
+
+.swiper-button-prev {
+    left: 5px; /* Moves closer to the image */
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    color: var(--primary-color) !important; /* Darker primary shade on hover */
+}
+
+/* Custom Pagination Color */
+.swiper-pagination {
+    margin-top: 15px; /* Moves dots slightly downward */
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    background-color: var(--primary-color) !important; /* Primary color */
+    opacity: 1;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #C7225F !important; /* Darker shade for active dot */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .schedule h1 {
+        font-size: 1.8rem;
+        margin-top: 20px;
+    }
+
+    .swiper-container {
+        width: 95%;
+    }
+    
+    .swiper-slide img {
+        max-height: 450px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .schedule h1 {
+        font-size: 1.5rem;
+        margin-top: 15px;
+    }
+
+    .swiper-container {
+        width: 100%;
+    }
+    
+    .swiper-slide img {
+        max-height: 350px;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        width: 25px;
+        height: 25px;
+        font-size: 14px;
+    }
+}

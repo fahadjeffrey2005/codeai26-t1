@@ -1,0 +1,104 @@
+/* Force transparent background for v5 GIF visibility */
+body {
+    background: transparent !important;
+}
+
+/* Darker overlay specifically for speakers page */
+.v5-dark-overlay {
+    background: rgba(0, 0, 0, 0.85) !important;
+}
+
+/* Comprehensive transparency for all speakers elements */
+.speakers,
+.speakers-container,
+.speaker-card {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+/* Speakers Section */
+.speakers {
+    margin-top: 5rem;
+    text-align: center;
+    padding: 4rem 10%;
+    position: relative;
+    background: transparent !important;
+}
+
+.speakers h2 {
+    color: var(--text-color);
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    position: relative;
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+.speakers h2::before,
+.speakers h2::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 100px;
+    height: 5px;
+    background: linear-gradient(to right, rgba(249, 52, 123, 0), var(--primary-color), rgba(249, 52, 123, 0));
+}
+
+.speakers h2::before {
+    left: -100px;
+}
+
+.speakers h2::after {
+    right: -100px;
+}
+
+.speakers-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+
+.speaker-card {
+    background-color: var(--bg-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 20%;
+    min-width: 250px;
+    transition: transform 0.5s ease;
+}
+
+.speaker-card:hover {
+    transform: translateY(-20px);
+}
+
+.speaker-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.speaker-card h3 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.speaker-card p {
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+@media (max-width: 768px) {
+    .speakers-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .speaker-card {
+        width: 80%;
+    }
+}

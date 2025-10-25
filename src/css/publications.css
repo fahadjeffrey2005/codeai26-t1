@@ -1,0 +1,194 @@
+.publishers {
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.publishers h1 {
+    color: var(--text-color);
+    margin-bottom: 2rem;
+}
+
+.publishers h2 {
+    font-size: 2rem;
+    color: var(--text-color);
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.publishers blockquote{
+    font-size: 1.4rem;
+    color: var(--text-color);
+    padding: 0 10rem; 
+}
+
+.publications-content {
+    color: var(--text-color);
+}
+
+.publications-content a{
+    color: var(--primary-color);
+}
+
+.publication{
+    margin-top: 5rem;
+}
+
+.publication h2 {
+    font-size: 1.8rem;
+    color: var(--text-color);
+    text-align: center;
+}
+
+
+.publication-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
+.journal-content{
+    color: var(--text-color);   
+}
+
+.academic-partner a:hover{
+    text-decoration: overline;
+    color: var(--text-color);
+}
+
+.journal-item {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.journal-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.journal-content h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: var(--text-color);
+}
+
+hr {
+    border: none;
+    border-top: 1px solid white;
+    margin: 1rem 0;
+}
+
+.divider {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem auto;
+}
+
+.divider .line {
+    flex: 1;
+    height: 2.5px;
+    background-color: var(--primary-color);
+}
+
+.divider .star {
+    margin: 0 1rem;
+    color: var(--text-color);
+    font-size: 1.5rem;
+}
+
+.journal-content a {
+    color: var(--primary-color);
+}
+
+.journal-content a:hover {
+    text-decoration:overline;
+    color: var(--text-color);
+}
+
+.publication-ethics{
+    margin-top: 5rem;
+}
+
+.publication-ethics h2 {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.theme-container {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5rem;
+    justify-content: center;
+}
+  
+.theme-card {
+    background-color: var(--bg-color);
+    border-radius: 1.2rem;
+    box-shadow: 0 4px 8px var(--bg-color);
+    overflow: hidden;
+    width: 20rem;
+    margin-bottom: 2rem;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;  
+}
+  
+.theme-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px var(--primary-color);
+}
+  
+.theme-header {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: var(--primary-color);
+}
+  
+.theme-number {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    border-radius: 50%;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+  
+.theme-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--text-color);
+}
+  
+.theme-description {
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: var(--bg-color);
+    color: var(--text-color); 
+    line-height: 1.6;
+}
+
+.publication-committee{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.publication-committee h2 {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    text-align: center;
+}
+
+@media screen and (max-width:767px) {
+    .publishers blockquote{
+        font-size: 1rem;
+        padding:0;
+    }
+}

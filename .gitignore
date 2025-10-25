@@ -1,0 +1,8 @@
+node_modules/
+.DS_Store
+*.log
+.env
+# Temporarily ignore large GIF files
+src/file/background-animation.gif
+src/file/v2-background.gif
+src/img/v5-background.gif
