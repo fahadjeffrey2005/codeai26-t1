@@ -1,0 +1,18 @@
+{
+  "name": "code-ai-2026-website",
+  "version": "1.0.0",
+  "description": "CODE-AI 2026 International Conference Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 3001 -o",
+    "dev": "http-server -p 3001 -o -c-1",
+    "build": "echo 'Static site - no build process needed'",
+    "serve": "http-server -p 3001"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "keywords": ["conference", "website", "code-ai", "static"],
+  "author": "CODE-AI 2026 Team",
+  "license": "MIT"
+}
